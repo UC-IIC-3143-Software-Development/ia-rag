@@ -133,8 +133,8 @@ Tiempo hasta el primer texto medido desde el cliente, 25 preguntas contra la API
 
 | Modelo | p50 | p95 | Dentro de 3 s |
 |---|---|---|---|
-| Claude Opus 5.5 | 1,98 s | 13,7 s | 76% |
-| Claude Haiku 5.5 | 1,54 s | 3,0 s | 92% |
+| Claude Opus 5.5 | 1,98 s | 13,69 s | 76% |
+| Claude Haiku 5.5 | 1,54 s | 3,02 s | 92% |
 
 Con Opus, en 3 de las 25 preguntas el primer texto no llegó en 8 s, porque el modelo razona antes de escribir, y respondió Gemini.
 
