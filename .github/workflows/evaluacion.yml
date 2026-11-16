@@ -1,0 +1,27 @@
+# Cada PR corre los tests y la evaluación del retrieval. Si recall@5 baja del mínimo, el check queda en rojo.
+name: evaluacion
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  retrieval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      # Los modelos de embeddings y reranker pesan cerca de 3 GB: se guardan entre ejecuciones.
+      # La clave nombra los modelos: cambia solo si cambia alguno de ellos
+      - uses: actions/cache@v6
+        with:
+          path: .cache/modelos
+          key: modelos-multilingual-e5-large-bge-reranker-v2-m3-int8
+      - run: uv run indexar
+      - run: uv run evaluar --minimo 0.95
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: resultados-evaluacion
+          path: evals/resultados/

@@ -1,0 +1,9 @@
+{
+ "tokenizador": "claude-opus-5-5 (messages.count_tokens)",
+ "v1_solo_pregunta": 34,
+ "v2_todo_el_corpus": 10183,
+ "v3_mediana": 1208.5,
+ "v3_min": 970,
+ "v3_max": 1742,
+ "system_prompt_aprox": 284
+}

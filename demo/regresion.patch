@@ -1,0 +1,12 @@
+diff --git a/src/asistente_andes/config.py b/src/asistente_andes/config.py
+--- a/src/asistente_andes/config.py
++++ b/src/asistente_andes/config.py
+@@ -22,7 +22,7 @@
+     modelo_embeddings: str = _env("MODELO_EMBEDDINGS", "intfloat/multilingual-e5-large")
+     # Cross-encoder multilingüe que reordena los candidatos (versión cuantizada a 8 bits)
+     modelo_reranker: str = _env("MODELO_RERANKER", "BAAI/bge-reranker-v2-m3-int8")
+-    estrategia_chunking: str = _env("CHUNKING", "secciones")
++    estrategia_chunking: str = _env("CHUNKING", "fijo-300")
+     chunk_max_caracteres: int = int(_env("CHUNK_MAX", "1200"))
+     candidatos: int = int(_env("CANDIDATOS", "10"))  # cuántos trae cada buscador y cuántos se reordenan
+     k: int = 5  # cuántos fragmentos llegan al prompt

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asistente Tienda Andes</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; color: #1a1f2e; }
+  h1 { font-size: 1.4rem; margin-bottom: .2rem; }
+  p.sub { color: #6b7280; margin-top: 0; }
+  form { display: flex; gap: .5rem; margin: 1.2rem 0; }
+  input { flex: 1; padding: .7rem; border: 1px solid #c9ced8; border-radius: 8px; font-size: 1rem; }
+  button { padding: .7rem 1.1rem; border: 0; border-radius: 8px; background: #2f7fe2; color: white; font-size: 1rem; cursor: pointer; }
+  #respuesta { white-space: pre-wrap; line-height: 1.5; min-height: 3rem; padding: 1rem; background: #f2f2f2; border-radius: 8px; }
+  #fuentes li { margin: .2rem 0; color: #3f4149; }
+  #metricas { font-size: .85rem; color: #6b7280; }
+  .cita { background: #dceffc; color: #163c84; border-radius: 4px; padding: 0 .25rem; font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>Asistente del centro de ayuda</h1>
+<p class="sub">Tienda Andes · RAG con búsqueda híbrida, reranking y Claude</p>
+<form id="f">
+  <input id="q" placeholder="¿Cuánto demora un despacho a Punta Arenas?" required minlength="3" maxlength="500">
+  <button>Preguntar</button>
+</form>
+<div id="respuesta"></div>
+<ol id="fuentes"></ol>
+<p id="metricas"></p>
+<script>
+// Muestra el texto con negritas y citas, escapando el HTML que venga del modelo
+const escapar = (t) => t.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]))
+const mostrar = (t) => escapar(t).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\[(\d+)\]/g, '<span class="cita">[$1]</span>')
+const f = document.getElementById('f')
+f.addEventListener('submit', async (e) => {
+  e.preventDefault()
+  const out = document.getElementById('respuesta'), fuentes = document.getElementById('fuentes'), met = document.getElementById('metricas')
+  out.textContent = ''
+  let texto = ''
+  fuentes.innerHTML = ''
+  met.textContent = ''
+  const t0 = performance.now()
+  let primero = null
+  const r = await fetch('/preguntar', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ pregunta: document.getElementById('q').value }) })
+  // Se lee el stream SSE a mano: cada evento termina con una línea en blanco
+  const lector = r.body.pipeThrough(new TextDecoderStream()).getReader()
+  let buffer = ''
+  while (true) {
+    const { value, done } = await lector.read()
+    if (done) break
+    buffer += value
+    const bloques = buffer.split('\n\n')
+    buffer = bloques.pop()
+    for (const b of bloques) {
+      const [lineaEvento, lineaDatos] = b.split('\n')
+      const evento = lineaEvento.replace('event: ', ''), datos = JSON.parse(lineaDatos.replace('data: ', ''))
+      if (evento === 'fuentes') {
+        for (const s of datos) {
+          const li = document.createElement('li')
+          li.textContent = `${s.documento} › ${s.seccion}`
+          fuentes.appendChild(li)
+        }
+      }
+      if (evento === 'texto') {
+        primero ??= performance.now() - t0
+        texto += datos
+        out.innerHTML = mostrar(texto)
+      }
+      if (evento === 'reemplazar') { texto = datos; out.innerHTML = mostrar(texto) }
+      if (evento === 'error') {
+        out.textContent = datos.mensaje
+        met.textContent = `traza ${datos.traza}`
+      }
+      if (evento === 'fin') met.textContent = `Primer texto en ${Math.round(primero)} ms · total ${Math.round(performance.now() - t0)} ms` +
+        (datos.tokens ? ` · ${datos.tokens.entrada} tokens de entrada y ${datos.tokens.salida} de salida` : '') +
+        (datos.costo_usd ? ` · US$ ${datos.costo_usd.toFixed(4)}` : '') + (datos.cache ? ' · desde el caché' : '') + ` · traza ${datos.traza}`
+    }
+  }
+})
+</script>
+</body>
+</html>

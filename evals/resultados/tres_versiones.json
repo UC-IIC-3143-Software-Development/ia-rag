@@ -1,0 +1,28 @@
+{
+ "pregunta": "¿Cuánto se demora en llegar un pedido a Coyhaique?",
+ "modelo": "claude-opus-5-5",
+ "v1_solo_pregunta": {
+  "respuesta": "El tiempo depende de la tienda y del servicio de envío, pero en general:\n\n**Tiempos aproximados a Coyhaique (Región de Aysén):**\n- **Desde Santiago u otras ciudades grandes:** entre **3 y 7 días hábiles**.\n- **Retail grande** (Falabella, Paris, Ripley, Mercado Libre): suelen indicar **4 a 10 días hábiles** para zonas extremas.\n- **Compras internacionales** (AliExpress, Amazon, Shein): normalmente **15 a 45 días**, y pueden demorarse más por aduana.\n\n**Por qué puede demorarse más que en otras regiones:**\n- Coyhaique es zona extrema y muchos envíos van por avión o vía terrestre por Argentina o la Carretera Austral.\n- El clima (nieve, temporales) puede retrasar los vuelos y el transporte, sobre todo en invierno.\n- Algunas empresas consolidan los envíos y no despachan todos los días.\n\n**Couriers que suelen operar allí:** Chilexpress, Starken, Correos de Chile y Blue Express.\n\n**Recomendaciones:**\n- Revisa el plazo que indica la tienda al ingresar tu dirección antes de pagar.\n- Si es urgente, pregunta si tienen envío aéreo o express.\n- En algunos casos conviene retirar en sucursal en lugar de pedir despacho a domicilio.\n\n¿De qué tienda o empresa es tu pedido? Así puedo darte una estimación más precisa.",
+  "tokens_entrada": 34,
+  "tokens_salida": 586,
+  "costo_usd": 0.011856,
+  "ttft_ms": 1290,
+  "total_ms": 7038
+ },
+ "v2_todo_el_corpus": {
+  "respuesta": "Un pedido a Coyhaique, en la Región de Aysén (Zona Austral), demora **entre 5 y 8 días hábiles** [Despachos a domicilio]. El plazo se cuenta desde que se confirma el pago, y si el pedido se confirma después de las 14:00, se cuenta desde el día hábil siguiente [Despachos a domicilio]. Puedes seguir el estado del pedido en Mi cuenta, en la sección Mis pedidos [Despachos a domicilio].",
+  "tokens_entrada": 10183,
+  "tokens_salida": 374,
+  "costo_usd": 0.048212,
+  "ttft_ms": 3078,
+  "total_ms": 4334
+ },
+ "v3_rag": {
+  "respuesta": "Coyhaique está en la región de Aysén, que pertenece a la Zona Austral, por lo que **el despacho a domicilio tarda de 5 a 8 días hábiles** [1]. Si confirmas el pedido después de las 14:00, el plazo empieza a contar desde el día hábil siguiente [1].",
+  "tokens_entrada": 1199,
+  "tokens_salida": 209,
+  "costo_usd": 0.008976,
+  "ttft_ms": 1560,
+  "total_ms": 2262
+ }
+}

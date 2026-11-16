@@ -1,0 +1,10 @@
+.venv/
+.cache/
+__pycache__/
+datos/indice.db
+datos/trazas.jsonl
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example

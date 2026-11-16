@@ -1,0 +1,41 @@
+{
+ "modelo": "intfloat/multilingual-e5-large",
+ "pares": [
+  {
+   "a": "¿Cuánto demora el despacho a Punta Arenas?",
+   "b": "¿En cuántos días llega mi pedido a Punta Arenas?",
+   "misma_respuesta": true,
+   "coseno": 0.954
+  },
+  {
+   "a": "¿Cómo borro mi cuenta?",
+   "b": "Quiero eliminar mi cuenta de Tienda Andes",
+   "misma_respuesta": true,
+   "coseno": 0.884
+  },
+  {
+   "a": "¿Puedo devolver una parka que no me quedó?",
+   "b": "La parka me quedó chica, ¿la puedo cambiar?",
+   "misma_respuesta": true,
+   "coseno": 0.917
+  },
+  {
+   "a": "¿Cuánto demora el despacho a Punta Arenas?",
+   "b": "¿Cuánto demora el despacho a Arica?",
+   "misma_respuesta": false,
+   "coseno": 0.917
+  },
+  {
+   "a": "¿Cuánto cuesta arrendar la carpa 2P por un día?",
+   "b": "¿Cuánto cuesta arrendar la carpa 4P por un día?",
+   "misma_respuesta": false,
+   "coseno": 0.965
+  },
+  {
+   "a": "¿Puedo devolver una carpa que no usé?",
+   "b": "¿Puedo devolver un cartucho de gas que no usé?",
+   "misma_respuesta": false,
+   "coseno": 0.908
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "resumen": {
+  "preguntas": 25,
+  "primer_texto_ms_p50": 1539,
+  "primer_texto_ms_p95": 3016,
+  "total_ms_p50": 1989,
+  "dentro_de_3_s": 0.92
+ },
+ "filas": [
+  {
+   "pregunta": "¿Cuánto se demora en llegar un pedido a Coyhaique?",
+   "primer_texto_ms": 1767,
+   "total_ms": 2056,
+   "costo_usd": 0.000171,
+   "cache": false
+  },
+  {
+   "pregunta": "¿El envío es gratis si compro $60.000 y vivo en Santiago?",
+   "primer_texto_ms": 3016,
+   "total_ms": 3375,
+   "costo_usd": 0.000333,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuánto pago de despacho a Punta Arenas si compro menos de $79.990?",
+   "primer_texto_ms": 2037,
+   "total_ms": 2609,
+   "costo_usd": 0.000221,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Qué pasa si no estoy en mi casa cuando llega el courier?",
+   "primer_texto_ms": 1271,
+   "total_ms": 1652,
+   "costo_usd": 0.000181,
+   "cache": false
+  },
+  {
+   "pregunta": "Me equivoqué en la dirección, ¿la puedo corregir?",
+   "primer_texto_ms": 1416,
+   "total_ms": 1711,
+   "costo_usd": 0.000174,
+   "cache": false
+  },
+  {
+   "pregunta": "¿A qué hora abre la tienda de Concepción?",
+   "primer_texto_ms": 1459,
+   "total_ms": 1662,
+   "costo_usd": 0.00015,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Puedo ir a buscar mi compra un domingo?",
+   "primer_texto_ms": 1539,
+   "total_ms": 1817,
+   "costo_usd": 0.000166,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuántos días me guardan el pedido para retiro?",
+   "primer_texto_ms": 1696,
+   "total_ms": 1902,
+   "costo_usd": 0.000139,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Mi hermano puede retirar mi pedido?",
+   "primer_texto_ms": 1432,
+   "total_ms": 1848,
+   "costo_usd": 0.00017,
+   "cache": false
+  },
+  {
+   "pregunta": "Compré una parka que no me quedó bien, ¿la puedo devolver?",
+   "primer_texto_ms": 1506,
+   "total_ms": 2364,
+   "costo_usd": 0.000246,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Puedo devolver un cartucho de gas que no usé?",
+   "primer_texto_ms": 1491,
+   "total_ms": 1957,
+   "costo_usd": 0.000194,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuánto cuesta que retiren una devolución en mi casa?",
+   "primer_texto_ms": 2072,
+   "total_ms": 2529,
+   "costo_usd": 0.000231,
+   "cache": false
+  },
+  {
+   "pregunta": "Pagué con débito, ¿cuándo me devuelven la plata?",
+   "primer_texto_ms": 1349,
+   "total_ms": 1914,
+   "costo_usd": 0.000186,
+   "cache": false
+  },
+  {
+   "pregunta": "Quiero cambiar mis botas por una talla más grande",
+   "primer_texto_ms": 1467,
+   "total_ms": 1989,
+   "costo_usd": 0.000179,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuánto dura la garantía legal?",
+   "primer_texto_ms": 1968,
+   "total_ms": 2226,
+   "costo_usd": 0.00017,
+   "cache": false
+  },
+  {
+   "pregunta": "Se me rompió el cierre de la mochila Aconcagua después de dos años",
+   "primer_texto_ms": 3504,
+   "total_ms": 4063,
+   "costo_usd": 0.00044,
+   "cache": false
+  },
+  {
+   "pregunta": "Pisé una varilla de la carpa y se quebró, ¿la cubre la garantía?",
+   "primer_texto_ms": 2935,
+   "total_ms": 3534,
+   "costo_usd": 0.000293,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuánto se demora el servicio técnico en revisar un producto?",
+   "primer_texto_ms": 1425,
+   "total_ms": 1798,
+   "costo_usd": 0.00015,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuánto cobran por cambiar un cierre fuera de garantía?",
+   "primer_texto_ms": 1398,
+   "total_ms": 1737,
+   "costo_usd": 0.000167,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Desde qué monto hay 6 cuotas sin interés?",
+   "primer_texto_ms": 1889,
+   "total_ms": 2272,
+   "costo_usd": 0.000165,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuánto tiempo tengo para hacer la transferencia?",
+   "primer_texto_ms": 1579,
+   "total_ms": 2138,
+   "costo_usd": 0.000184,
+   "cache": false
+  },
+  {
+   "pregunta": "Necesito factura para mi empresa",
+   "primer_texto_ms": 1028,
+   "total_ms": 1262,
+   "costo_usd": 0.000151,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Las gift cards vencen?",
+   "primer_texto_ms": 1504,
+   "total_ms": 1880,
+   "costo_usd": 0.000144,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Cuántos puntos gano por una compra de $50.000?",
+   "primer_texto_ms": 1924,
+   "total_ms": 2269,
+   "costo_usd": 0.000152,
+   "cache": false
+  },
+  {
+   "pregunta": "¿Qué beneficios tiene el nivel Cumbre?",
+   "primer_texto_ms": 1970,
+   "total_ms": 2337,
+   "costo_usd": 0.000168,
+   "cache": false
+  }
+ ]
+}

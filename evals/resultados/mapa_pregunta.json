@@ -1,0 +1,621 @@
+{
+ "pregunta": "¿Cuánto se demora en llegar un pedido a Coyhaique?",
+ "fragmentos": [
+  {
+   "id": "cuenta/atencion-al-cliente.md#0",
+   "ruta": "cuenta/atencion-al-cliente.md",
+   "seccion": "Canales",
+   "coseno": 0.7905,
+   "top5": false
+  },
+  {
+   "id": "cuenta/atencion-al-cliente.md#1",
+   "ruta": "cuenta/atencion-al-cliente.md",
+   "seccion": "Reclamos",
+   "coseno": 0.8098,
+   "top5": true
+  },
+  {
+   "id": "cuenta/cuenta-y-datos-personales.md#0",
+   "ruta": "cuenta/cuenta-y-datos-personales.md",
+   "seccion": "Crear una cuenta",
+   "coseno": 0.7775,
+   "top5": false
+  },
+  {
+   "id": "cuenta/cuenta-y-datos-personales.md#1",
+   "ruta": "cuenta/cuenta-y-datos-personales.md",
+   "seccion": "Recuperar la contraseña",
+   "coseno": 0.7851,
+   "top5": false
+  },
+  {
+   "id": "cuenta/cuenta-y-datos-personales.md#2",
+   "ruta": "cuenta/cuenta-y-datos-personales.md",
+   "seccion": "Qué datos guardamos",
+   "coseno": 0.7649,
+   "top5": false
+  },
+  {
+   "id": "cuenta/cuenta-y-datos-personales.md#3",
+   "ruta": "cuenta/cuenta-y-datos-personales.md",
+   "seccion": "Eliminar la cuenta",
+   "coseno": 0.7278,
+   "top5": false
+  },
+  {
+   "id": "cuenta/cuenta-y-datos-personales.md#4",
+   "ruta": "cuenta/cuenta-y-datos-personales.md",
+   "seccion": "Comunicaciones",
+   "coseno": 0.7549,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-botas.md#0",
+   "ruta": "cuidado/cuidado-de-botas.md",
+   "seccion": "Limpieza",
+   "coseno": 0.7214,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-botas.md#1",
+   "ruta": "cuidado/cuidado-de-botas.md",
+   "seccion": "Secado",
+   "coseno": 0.7244,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-botas.md#2",
+   "ruta": "cuidado/cuidado-de-botas.md",
+   "seccion": "Impermeabilización",
+   "coseno": 0.7445,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-carpas.md#0",
+   "ruta": "cuidado/cuidado-de-carpas.md",
+   "seccion": "Secado antes de guardar",
+   "coseno": 0.7649,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-carpas.md#1",
+   "ruta": "cuidado/cuidado-de-carpas.md",
+   "seccion": "Limpieza",
+   "coseno": 0.7305,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-carpas.md#2",
+   "ruta": "cuidado/cuidado-de-carpas.md",
+   "seccion": "Sellado de costuras",
+   "coseno": 0.7729,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-carpas.md#3",
+   "ruta": "cuidado/cuidado-de-carpas.md",
+   "seccion": "Rayos UV",
+   "coseno": 0.7376,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-plumas.md#0",
+   "ruta": "cuidado/cuidado-de-plumas.md",
+   "seccion": "Lavado",
+   "coseno": 0.7198,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-plumas.md#1",
+   "ruta": "cuidado/cuidado-de-plumas.md",
+   "seccion": "Secado",
+   "coseno": 0.7566,
+   "top5": false
+  },
+  {
+   "id": "cuidado/cuidado-de-plumas.md#2",
+   "ruta": "cuidado/cuidado-de-plumas.md",
+   "seccion": "Guardado",
+   "coseno": 0.7463,
+   "top5": false
+  },
+  {
+   "id": "politicas/arriendo-de-equipos.md#0",
+   "ruta": "politicas/arriendo-de-equipos.md",
+   "seccion": "Introducción",
+   "coseno": 0.7767,
+   "top5": false
+  },
+  {
+   "id": "politicas/arriendo-de-equipos.md#1",
+   "ruta": "politicas/arriendo-de-equipos.md",
+   "seccion": "Equipos y tarifas",
+   "coseno": 0.7846,
+   "top5": false
+  },
+  {
+   "id": "politicas/arriendo-de-equipos.md#2",
+   "ruta": "politicas/arriendo-de-equipos.md",
+   "seccion": "Reserva y retiro",
+   "coseno": 0.7837,
+   "top5": false
+  },
+  {
+   "id": "politicas/arriendo-de-equipos.md#3",
+   "ruta": "politicas/arriendo-de-equipos.md",
+   "seccion": "Devolución y daños",
+   "coseno": 0.7619,
+   "top5": false
+  },
+  {
+   "id": "politicas/arriendo-de-equipos.md#4",
+   "ruta": "politicas/arriendo-de-equipos.md",
+   "seccion": "Comprar el equipo arrendado",
+   "coseno": 0.766,
+   "top5": false
+  },
+  {
+   "id": "politicas/cambios-y-devoluciones.md#0",
+   "ruta": "politicas/cambios-y-devoluciones.md",
+   "seccion": "Plazo para cambiar o devolver",
+   "coseno": 0.7845,
+   "top5": false
+  },
+  {
+   "id": "politicas/cambios-y-devoluciones.md#1",
+   "ruta": "politicas/cambios-y-devoluciones.md",
+   "seccion": "Productos que no se pueden devolver",
+   "coseno": 0.7587,
+   "top5": false
+  },
+  {
+   "id": "politicas/cambios-y-devoluciones.md#2",
+   "ruta": "politicas/cambios-y-devoluciones.md",
+   "seccion": "Cómo iniciar un cambio o una devolución",
+   "coseno": 0.773,
+   "top5": false
+  },
+  {
+   "id": "politicas/cambios-y-devoluciones.md#3",
+   "ruta": "politicas/cambios-y-devoluciones.md",
+   "seccion": "Reembolsos",
+   "coseno": 0.7845,
+   "top5": false
+  },
+  {
+   "id": "politicas/cambios-y-devoluciones.md#4",
+   "ruta": "politicas/cambios-y-devoluciones.md",
+   "seccion": "Cambios de talla",
+   "coseno": 0.7706,
+   "top5": false
+  },
+  {
+   "id": "politicas/club-andes.md#0",
+   "ruta": "politicas/club-andes.md",
+   "seccion": "Introducción",
+   "coseno": 0.7238,
+   "top5": false
+  },
+  {
+   "id": "politicas/club-andes.md#1",
+   "ruta": "politicas/club-andes.md",
+   "seccion": "Cómo se acumulan puntos",
+   "coseno": 0.7728,
+   "top5": false
+  },
+  {
+   "id": "politicas/club-andes.md#2",
+   "ruta": "politicas/club-andes.md",
+   "seccion": "Niveles",
+   "coseno": 0.7714,
+   "top5": false
+  },
+  {
+   "id": "politicas/club-andes.md#3",
+   "ruta": "politicas/club-andes.md",
+   "seccion": "Canje de puntos",
+   "coseno": 0.7454,
+   "top5": false
+  },
+  {
+   "id": "politicas/club-andes.md#4",
+   "ruta": "politicas/club-andes.md",
+   "seccion": "Vencimiento",
+   "coseno": 0.7618,
+   "top5": false
+  },
+  {
+   "id": "politicas/despachos.md#0",
+   "ruta": "politicas/despachos.md",
+   "seccion": "Introducción",
+   "coseno": 0.8298,
+   "top5": true
+  },
+  {
+   "id": "politicas/despachos.md#1",
+   "ruta": "politicas/despachos.md",
+   "seccion": "Plazos por zona",
+   "coseno": 0.8648,
+   "top5": true
+  },
+  {
+   "id": "politicas/despachos.md#2",
+   "ruta": "politicas/despachos.md",
+   "seccion": "Costo del despacho",
+   "coseno": 0.8088,
+   "top5": false
+  },
+  {
+   "id": "politicas/despachos.md#3",
+   "ruta": "politicas/despachos.md",
+   "seccion": "Seguimiento del pedido",
+   "coseno": 0.8111,
+   "top5": true
+  },
+  {
+   "id": "politicas/despachos.md#4",
+   "ruta": "politicas/despachos.md",
+   "seccion": "Si no hay nadie en el domicilio",
+   "coseno": 0.8041,
+   "top5": false
+  },
+  {
+   "id": "politicas/despachos.md#5",
+   "ruta": "politicas/despachos.md",
+   "seccion": "Dirección equivocada",
+   "coseno": 0.7807,
+   "top5": false
+  },
+  {
+   "id": "politicas/garantia.md#0",
+   "ruta": "politicas/garantia.md",
+   "seccion": "Garantía legal",
+   "coseno": 0.7696,
+   "top5": false
+  },
+  {
+   "id": "politicas/garantia.md#1",
+   "ruta": "politicas/garantia.md",
+   "seccion": "Garantía extendida de las marcas",
+   "coseno": 0.7723,
+   "top5": false
+  },
+  {
+   "id": "politicas/garantia.md#2",
+   "ruta": "politicas/garantia.md",
+   "seccion": "Cómo pedir la garantía",
+   "coseno": 0.8024,
+   "top5": false
+  },
+  {
+   "id": "politicas/garantia.md#3",
+   "ruta": "politicas/garantia.md",
+   "seccion": "Reparaciones pagadas",
+   "coseno": 0.7716,
+   "top5": false
+  },
+  {
+   "id": "politicas/medios-de-pago.md#0",
+   "ruta": "politicas/medios-de-pago.md",
+   "seccion": "Medios aceptados",
+   "coseno": 0.7503,
+   "top5": false
+  },
+  {
+   "id": "politicas/medios-de-pago.md#1",
+   "ruta": "politicas/medios-de-pago.md",
+   "seccion": "Cuotas sin interés",
+   "coseno": 0.7655,
+   "top5": false
+  },
+  {
+   "id": "politicas/medios-de-pago.md#2",
+   "ruta": "politicas/medios-de-pago.md",
+   "seccion": "Transferencia bancaria",
+   "coseno": 0.8074,
+   "top5": false
+  },
+  {
+   "id": "politicas/medios-de-pago.md#3",
+   "ruta": "politicas/medios-de-pago.md",
+   "seccion": "Boleta o factura",
+   "coseno": 0.7522,
+   "top5": false
+  },
+  {
+   "id": "politicas/medios-de-pago.md#4",
+   "ruta": "politicas/medios-de-pago.md",
+   "seccion": "Gift cards",
+   "coseno": 0.7715,
+   "top5": false
+  },
+  {
+   "id": "politicas/preguntas-frecuentes.md#0",
+   "ruta": "politicas/preguntas-frecuentes.md",
+   "seccion": "¿Tienen tienda en el norte?",
+   "coseno": 0.8037,
+   "top5": false
+  },
+  {
+   "id": "politicas/preguntas-frecuentes.md#1",
+   "ruta": "politicas/preguntas-frecuentes.md",
+   "seccion": "¿Hacen envíos fuera de Chile?",
+   "coseno": 0.8022,
+   "top5": false
+  },
+  {
+   "id": "politicas/preguntas-frecuentes.md#2",
+   "ruta": "politicas/preguntas-frecuentes.md",
+   "seccion": "¿Los precios del sitio web y de las tiendas son iguales?",
+   "coseno": 0.7381,
+   "top5": false
+  },
+  {
+   "id": "politicas/preguntas-frecuentes.md#3",
+   "ruta": "politicas/preguntas-frecuentes.md",
+   "seccion": "¿Puedo cambiar un producto comprado en oferta?",
+   "coseno": 0.7722,
+   "top5": false
+  },
+  {
+   "id": "politicas/preguntas-frecuentes.md#4",
+   "ruta": "politicas/preguntas-frecuentes.md",
+   "seccion": "¿Puedo anular una compra?",
+   "coseno": 0.7636,
+   "top5": false
+  },
+  {
+   "id": "politicas/retiro-en-tienda.md#0",
+   "ruta": "politicas/retiro-en-tienda.md",
+   "seccion": "Introducción",
+   "coseno": 0.7614,
+   "top5": false
+  },
+  {
+   "id": "politicas/retiro-en-tienda.md#1",
+   "ruta": "politicas/retiro-en-tienda.md",
+   "seccion": "Tiendas y horarios",
+   "coseno": 0.7948,
+   "top5": false
+  },
+  {
+   "id": "politicas/retiro-en-tienda.md#2",
+   "ruta": "politicas/retiro-en-tienda.md",
+   "seccion": "Plazos de preparación",
+   "coseno": 0.829,
+   "top5": true
+  },
+  {
+   "id": "politicas/retiro-en-tienda.md#3",
+   "ruta": "politicas/retiro-en-tienda.md",
+   "seccion": "Cuánto tiempo guardamos el pedido",
+   "coseno": 0.805,
+   "top5": false
+  },
+  {
+   "id": "politicas/retiro-en-tienda.md#4",
+   "ruta": "politicas/retiro-en-tienda.md",
+   "seccion": "Quién puede retirar",
+   "coseno": 0.7514,
+   "top5": false
+  },
+  {
+   "id": "productos/botas-villarrica.md#0",
+   "ruta": "productos/botas-villarrica.md",
+   "seccion": "Introducción",
+   "coseno": 0.7602,
+   "top5": false
+  },
+  {
+   "id": "productos/botas-villarrica.md#1",
+   "ruta": "productos/botas-villarrica.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7524,
+   "top5": false
+  },
+  {
+   "id": "productos/botas-villarrica.md#2",
+   "ruta": "productos/botas-villarrica.md",
+   "seccion": "Guía de tallas",
+   "coseno": 0.72,
+   "top5": false
+  },
+  {
+   "id": "productos/botas-villarrica.md#3",
+   "ruta": "productos/botas-villarrica.md",
+   "seccion": "Ablande",
+   "coseno": 0.7693,
+   "top5": false
+  },
+  {
+   "id": "productos/carpa-torres-del-paine.md#0",
+   "ruta": "productos/carpa-torres-del-paine.md",
+   "seccion": "Introducción",
+   "coseno": 0.7492,
+   "top5": false
+  },
+  {
+   "id": "productos/carpa-torres-del-paine.md#1",
+   "ruta": "productos/carpa-torres-del-paine.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7445,
+   "top5": false
+  },
+  {
+   "id": "productos/carpa-torres-del-paine.md#2",
+   "ruta": "productos/carpa-torres-del-paine.md",
+   "seccion": "Resistencia al viento",
+   "coseno": 0.7461,
+   "top5": false
+  },
+  {
+   "id": "productos/carpa-torres-del-paine.md#3",
+   "ruta": "productos/carpa-torres-del-paine.md",
+   "seccion": "Armado",
+   "coseno": 0.7606,
+   "top5": false
+  },
+  {
+   "id": "productos/cocinilla-nahuelbuta.md#0",
+   "ruta": "productos/cocinilla-nahuelbuta.md",
+   "seccion": "Introducción",
+   "coseno": 0.7644,
+   "top5": false
+  },
+  {
+   "id": "productos/cocinilla-nahuelbuta.md#1",
+   "ruta": "productos/cocinilla-nahuelbuta.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7679,
+   "top5": false
+  },
+  {
+   "id": "productos/cocinilla-nahuelbuta.md#2",
+   "ruta": "productos/cocinilla-nahuelbuta.md",
+   "seccion": "Cartuchos compatibles",
+   "coseno": 0.771,
+   "top5": false
+  },
+  {
+   "id": "productos/cocinilla-nahuelbuta.md#3",
+   "ruta": "productos/cocinilla-nahuelbuta.md",
+   "seccion": "Uso seguro",
+   "coseno": 0.7452,
+   "top5": false
+  },
+  {
+   "id": "productos/cocinilla-nahuelbuta.md#4",
+   "ruta": "productos/cocinilla-nahuelbuta.md",
+   "seccion": "Viajes en avión",
+   "coseno": 0.7526,
+   "top5": false
+  },
+  {
+   "id": "productos/linterna-atacama.md#0",
+   "ruta": "productos/linterna-atacama.md",
+   "seccion": "Introducción",
+   "coseno": 0.7281,
+   "top5": false
+  },
+  {
+   "id": "productos/linterna-atacama.md#1",
+   "ruta": "productos/linterna-atacama.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7475,
+   "top5": false
+  },
+  {
+   "id": "productos/linterna-atacama.md#2",
+   "ruta": "productos/linterna-atacama.md",
+   "seccion": "Bloqueo",
+   "coseno": 0.7386,
+   "top5": false
+  },
+  {
+   "id": "productos/mochila-aconcagua.md#0",
+   "ruta": "productos/mochila-aconcagua.md",
+   "seccion": "Introducción",
+   "coseno": 0.7817,
+   "top5": false
+  },
+  {
+   "id": "productos/mochila-aconcagua.md#1",
+   "ruta": "productos/mochila-aconcagua.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7452,
+   "top5": false
+  },
+  {
+   "id": "productos/mochila-aconcagua.md#2",
+   "ruta": "productos/mochila-aconcagua.md",
+   "seccion": "Ajuste del torso",
+   "coseno": 0.7556,
+   "top5": false
+  },
+  {
+   "id": "productos/mochila-aconcagua.md#3",
+   "ruta": "productos/mochila-aconcagua.md",
+   "seccion": "Distribución de la carga",
+   "coseno": 0.7483,
+   "top5": false
+  },
+  {
+   "id": "productos/parka-cerro-plomo.md#0",
+   "ruta": "productos/parka-cerro-plomo.md",
+   "seccion": "Introducción",
+   "coseno": 0.7528,
+   "top5": false
+  },
+  {
+   "id": "productos/parka-cerro-plomo.md#1",
+   "ruta": "productos/parka-cerro-plomo.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7442,
+   "top5": false
+  },
+  {
+   "id": "productos/parka-cerro-plomo.md#2",
+   "ruta": "productos/parka-cerro-plomo.md",
+   "seccion": "Guía de tallas",
+   "coseno": 0.7278,
+   "top5": false
+  },
+  {
+   "id": "productos/parka-cerro-plomo.md#3",
+   "ruta": "productos/parka-cerro-plomo.md",
+   "seccion": "Lluvia",
+   "coseno": 0.7358,
+   "top5": false
+  },
+  {
+   "id": "productos/saco-ojos-del-salado.md#0",
+   "ruta": "productos/saco-ojos-del-salado.md",
+   "seccion": "Introducción",
+   "coseno": 0.7594,
+   "top5": false
+  },
+  {
+   "id": "productos/saco-ojos-del-salado.md#1",
+   "ruta": "productos/saco-ojos-del-salado.md",
+   "seccion": "Rango de temperatura",
+   "coseno": 0.7144,
+   "top5": false
+  },
+  {
+   "id": "productos/saco-ojos-del-salado.md#2",
+   "ruta": "productos/saco-ojos-del-salado.md",
+   "seccion": "Especificaciones",
+   "coseno": 0.7485,
+   "top5": false
+  },
+  {
+   "id": "productos/saco-ojos-del-salado.md#3",
+   "ruta": "productos/saco-ojos-del-salado.md",
+   "seccion": "Uso con humedad",
+   "coseno": 0.7537,
+   "top5": false
+  },
+  {
+   "id": "resenas/resenas-mochila-aconcagua.md#0",
+   "ruta": "resenas/resenas-mochila-aconcagua.md",
+   "seccion": "Introducción",
+   "coseno": 0.7673,
+   "top5": false
+  },
+  {
+   "id": "resenas/resenas-mochila-aconcagua.md#1",
+   "ruta": "resenas/resenas-mochila-aconcagua.md",
+   "seccion": "Reseña de Camila, Valdivia",
+   "coseno": 0.7851,
+   "top5": false
+  },
+  {
+   "id": "resenas/resenas-mochila-aconcagua.md#2",
+   "ruta": "resenas/resenas-mochila-aconcagua.md",
+   "seccion": "Reseña de Matías, Antofagasta",
+   "coseno": 0.7852,
+   "top5": false
+  }
+ ]
+}

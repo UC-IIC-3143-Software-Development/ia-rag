@@ -1,0 +1,177 @@
+[
+ {
+  "producto": "Parka Cerro Plomo",
+  "tienda": "Providencia",
+  "unidades": 6
+ },
+ {
+  "producto": "Parka Cerro Plomo",
+  "tienda": "Viña del Mar",
+  "unidades": 2
+ },
+ {
+  "producto": "Parka Cerro Plomo",
+  "tienda": "Concepción",
+  "unidades": 0
+ },
+ {
+  "producto": "Parka Cerro Plomo",
+  "tienda": "Puerto Varas",
+  "unidades": 3
+ },
+ {
+  "producto": "Parka Cerro Plomo",
+  "tienda": "Punta Arenas",
+  "unidades": 1
+ },
+ {
+  "producto": "Mochila Aconcagua 45 L",
+  "tienda": "Providencia",
+  "unidades": 4
+ },
+ {
+  "producto": "Mochila Aconcagua 45 L",
+  "tienda": "Viña del Mar",
+  "unidades": 0
+ },
+ {
+  "producto": "Mochila Aconcagua 45 L",
+  "tienda": "Concepción",
+  "unidades": 2
+ },
+ {
+  "producto": "Mochila Aconcagua 45 L",
+  "tienda": "Puerto Varas",
+  "unidades": 5
+ },
+ {
+  "producto": "Mochila Aconcagua 45 L",
+  "tienda": "Punta Arenas",
+  "unidades": 0
+ },
+ {
+  "producto": "Carpa Torres del Paine 2P",
+  "tienda": "Providencia",
+  "unidades": 3
+ },
+ {
+  "producto": "Carpa Torres del Paine 2P",
+  "tienda": "Viña del Mar",
+  "unidades": 1
+ },
+ {
+  "producto": "Carpa Torres del Paine 2P",
+  "tienda": "Concepción",
+  "unidades": 0
+ },
+ {
+  "producto": "Carpa Torres del Paine 2P",
+  "tienda": "Puerto Varas",
+  "unidades": 2
+ },
+ {
+  "producto": "Carpa Torres del Paine 2P",
+  "tienda": "Punta Arenas",
+  "unidades": 4
+ },
+ {
+  "producto": "Saco de dormir Ojos del Salado",
+  "tienda": "Providencia",
+  "unidades": 0
+ },
+ {
+  "producto": "Saco de dormir Ojos del Salado",
+  "tienda": "Viña del Mar",
+  "unidades": 2
+ },
+ {
+  "producto": "Saco de dormir Ojos del Salado",
+  "tienda": "Concepción",
+  "unidades": 1
+ },
+ {
+  "producto": "Saco de dormir Ojos del Salado",
+  "tienda": "Puerto Varas",
+  "unidades": 0
+ },
+ {
+  "producto": "Saco de dormir Ojos del Salado",
+  "tienda": "Punta Arenas",
+  "unidades": 3
+ },
+ {
+  "producto": "Botas Villarrica",
+  "tienda": "Providencia",
+  "unidades": 5
+ },
+ {
+  "producto": "Botas Villarrica",
+  "tienda": "Viña del Mar",
+  "unidades": 3
+ },
+ {
+  "producto": "Botas Villarrica",
+  "tienda": "Concepción",
+  "unidades": 2
+ },
+ {
+  "producto": "Botas Villarrica",
+  "tienda": "Puerto Varas",
+  "unidades": 1
+ },
+ {
+  "producto": "Botas Villarrica",
+  "tienda": "Punta Arenas",
+  "unidades": 0
+ },
+ {
+  "producto": "Cocinilla Nahuelbuta",
+  "tienda": "Providencia",
+  "unidades": 8
+ },
+ {
+  "producto": "Cocinilla Nahuelbuta",
+  "tienda": "Viña del Mar",
+  "unidades": 4
+ },
+ {
+  "producto": "Cocinilla Nahuelbuta",
+  "tienda": "Concepción",
+  "unidades": 0
+ },
+ {
+  "producto": "Cocinilla Nahuelbuta",
+  "tienda": "Puerto Varas",
+  "unidades": 2
+ },
+ {
+  "producto": "Cocinilla Nahuelbuta",
+  "tienda": "Punta Arenas",
+  "unidades": 1
+ },
+ {
+  "producto": "Linterna frontal Atacama",
+  "tienda": "Providencia",
+  "unidades": 10
+ },
+ {
+  "producto": "Linterna frontal Atacama",
+  "tienda": "Viña del Mar",
+  "unidades": 6
+ },
+ {
+  "producto": "Linterna frontal Atacama",
+  "tienda": "Concepción",
+  "unidades": 3
+ },
+ {
+  "producto": "Linterna frontal Atacama",
+  "tienda": "Puerto Varas",
+  "unidades": 0
+ },
+ {
+  "producto": "Linterna frontal Atacama",
+  "tienda": "Punta Arenas",
+  "unidades": 2
+ }
+]

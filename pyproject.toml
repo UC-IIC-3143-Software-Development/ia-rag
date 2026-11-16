@@ -1,0 +1,35 @@
+[project]
+name = "asistente-andes"
+version = "0.1.0"
+description = "Asistente RAG del centro de ayuda de Tienda Andes: retrieval híbrido, Claude con streaming, agente con herramientas, evaluación y trazas"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=2.8.0",
+    "fastapi>=0.163.1",
+    "fastembed>=0.9.1",
+    "google-genai>=1.0",
+    "numpy>=2.5.5",
+    "pgvector>=0.4",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.14.3",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+indexar = "asistente_andes.cli:indexar"
+buscar = "asistente_andes.cli:buscar"
+evaluar = "asistente_andes.evaluacion:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

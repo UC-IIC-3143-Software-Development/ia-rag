@@ -1,0 +1,92 @@
+{
+ "modelo": "intfloat/multilingual-e5-large",
+ "dimension": 1024,
+ "puntos": [
+  {
+   "texto": "¿Cuánto demora el despacho a Arica?",
+   "grupo": "despachos",
+   "x": -0.3235,
+   "y": 0.0422
+  },
+  {
+   "texto": "¿Cuánto demora el despacho a Punta Arenas?",
+   "grupo": "despachos",
+   "x": -0.342,
+   "y": 0.0637
+  },
+  {
+   "texto": "¿Cuánto cuesta el envío a regiones?",
+   "grupo": "despachos",
+   "x": -0.1704,
+   "y": -0.0532
+  },
+  {
+   "texto": "¿Puedo devolver una parka?",
+   "grupo": "devoluciones",
+   "x": 0.1584,
+   "y": -0.3068
+  },
+  {
+   "texto": "Quiero cambiar unas botas por otra talla",
+   "grupo": "devoluciones",
+   "x": 0.1851,
+   "y": 0.0277
+  },
+  {
+   "texto": "¿Cuántos días tengo para devolver un producto?",
+   "grupo": "devoluciones",
+   "x": 0.0877,
+   "y": -0.2123
+  },
+  {
+   "texto": "¿Cómo borro mi cuenta?",
+   "grupo": "cuenta",
+   "x": 0.2148,
+   "y": 0.2061
+  },
+  {
+   "texto": "Olvidé mi contraseña",
+   "grupo": "cuenta",
+   "x": 0.1899,
+   "y": 0.2327
+  }
+ ],
+ "primeros_valores": {
+  "¿Cuánto demora el despacho a Arica?": [
+   0.027,
+   -0.01,
+   -0.023,
+   -0.01
+  ]
+ },
+ "coseno": {
+  "¿Cuánto demora el despacho a Arica? | ¿Cuánto demora el despacho a Punta Arenas?": 0.917,
+  "¿Cuánto demora el despacho a Arica? | ¿Cuánto cuesta el envío a regiones?": 0.827,
+  "¿Cuánto demora el despacho a Arica? | ¿Puedo devolver una parka?": 0.781,
+  "¿Cuánto demora el despacho a Arica? | Quiero cambiar unas botas por otra talla": 0.773,
+  "¿Cuánto demora el despacho a Arica? | ¿Cuántos días tengo para devolver un producto?": 0.811,
+  "¿Cuánto demora el despacho a Arica? | ¿Cómo borro mi cuenta?": 0.769,
+  "¿Cuánto demora el despacho a Arica? | Olvidé mi contraseña": 0.784,
+  "¿Cuánto demora el despacho a Punta Arenas? | ¿Cuánto cuesta el envío a regiones?": 0.835,
+  "¿Cuánto demora el despacho a Punta Arenas? | ¿Puedo devolver una parka?": 0.764,
+  "¿Cuánto demora el despacho a Punta Arenas? | Quiero cambiar unas botas por otra talla": 0.775,
+  "¿Cuánto demora el despacho a Punta Arenas? | ¿Cuántos días tengo para devolver un producto?": 0.808,
+  "¿Cuánto demora el despacho a Punta Arenas? | ¿Cómo borro mi cuenta?": 0.763,
+  "¿Cuánto demora el despacho a Punta Arenas? | Olvidé mi contraseña": 0.78,
+  "¿Cuánto cuesta el envío a regiones? | ¿Puedo devolver una parka?": 0.787,
+  "¿Cuánto cuesta el envío a regiones? | Quiero cambiar unas botas por otra talla": 0.791,
+  "¿Cuánto cuesta el envío a regiones? | ¿Cuántos días tengo para devolver un producto?": 0.822,
+  "¿Cuánto cuesta el envío a regiones? | ¿Cómo borro mi cuenta?": 0.774,
+  "¿Cuánto cuesta el envío a regiones? | Olvidé mi contraseña": 0.787,
+  "¿Puedo devolver una parka? | Quiero cambiar unas botas por otra talla": 0.829,
+  "¿Puedo devolver una parka? | ¿Cuántos días tengo para devolver un producto?": 0.884,
+  "¿Puedo devolver una parka? | ¿Cómo borro mi cuenta?": 0.8,
+  "¿Puedo devolver una parka? | Olvidé mi contraseña": 0.809,
+  "Quiero cambiar unas botas por otra talla | ¿Cuántos días tengo para devolver un producto?": 0.833,
+  "Quiero cambiar unas botas por otra talla | ¿Cómo borro mi cuenta?": 0.818,
+  "Quiero cambiar unas botas por otra talla | Olvidé mi contraseña": 0.853,
+  "¿Cuántos días tengo para devolver un producto? | ¿Cómo borro mi cuenta?": 0.837,
+  "¿Cuántos días tengo para devolver un producto? | Olvidé mi contraseña": 0.818,
+  "¿Cómo borro mi cuenta? | Olvidé mi contraseña": 0.866
+ }
+}

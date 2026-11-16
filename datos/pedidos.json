@@ -1,0 +1,8 @@
+[
+  {"numero": "A-10231", "cliente": "cli-001", "estado": "entregado", "fecha_compra": "2026-10-20", "fecha_entrega": "2026-10-23", "entrega": "despacho", "comuna": "Ñuñoa", "productos": ["Parka Cerro Plomo, talla M"], "total": 129990, "medio_pago": "tarjeta de crédito"},
+  {"numero": "A-10244", "cliente": "cli-001", "estado": "en reparto", "fecha_compra": "2026-11-12", "fecha_entrega": null, "entrega": "despacho", "comuna": "Ñuñoa", "productos": ["Linterna frontal Atacama", "Termo Valle del Elqui 1 L"], "total": 47980, "medio_pago": "tarjeta de débito"},
+  {"numero": "A-10198", "cliente": "cli-002", "estado": "entregado", "fecha_compra": "2026-09-28", "fecha_entrega": "2026-10-06", "entrega": "despacho", "comuna": "Punta Arenas", "productos": ["Carpa Torres del Paine 2P"], "total": 199990, "medio_pago": "transferencia bancaria"},
+  {"numero": "A-10252", "cliente": "cli-002", "estado": "en preparación", "fecha_compra": "2026-11-14", "fecha_entrega": null, "entrega": "retiro en tienda Punta Arenas", "comuna": "Punta Arenas", "productos": ["Saco de dormir Ojos del Salado"], "total": 149990, "medio_pago": "tarjeta de crédito"},
+  {"numero": "A-10207", "cliente": "cli-003", "estado": "entregado", "fecha_compra": "2026-10-30", "fecha_entrega": "2026-11-04", "entrega": "despacho", "comuna": "Antofagasta", "productos": ["Botas Villarrica, talla 42", "Cocinilla Nahuelbuta"], "total": 164980, "medio_pago": "tarjeta de crédito"},
+  {"numero": "A-10260", "cliente": "cli-003", "estado": "pagado", "fecha_compra": "2026-11-15", "fecha_entrega": null, "entrega": "despacho", "comuna": "Antofagasta", "productos": ["Mochila Aconcagua 45 L"], "total": 89990, "medio_pago": "tarjeta de crédito"}
+]
