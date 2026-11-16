@@ -1,0 +1,25 @@
+meta {
+  name: 06 Agente: stock por tienda
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{baseUrl}}/agente
+  body: json
+  auth: none
+}
+
+headers {
+  X-Cliente: cli-001
+}
+
+body:json {
+  {
+    "mensaje": "¿Hay parkas Cerro Plomo en la tienda de Concepción? Si no hay, ¿cuánto demora el retiro en otra tienda?"
+  }
+}
+
+docs {
+  RAG agéntico: el stock se consulta directo (consultar_stock) y la política de retiro se busca en el centro de ayuda.
+}

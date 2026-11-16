@@ -1,0 +1,13 @@
+docs {
+  # Asistente RAG de Tienda Andes
+
+  Llamadas al backend (FastAPI) del proyecto ia-rag. Elijan el entorno **local** arriba a la derecha.
+
+  Antes, levanten el backend con la clave de API:
+
+  ```
+  uv run --env-file .env uvicorn asistente_andes.app:app --port 8000
+  ```
+
+  `/preguntar` responde con un stream SSE: eventos `fuentes`, `texto` (varios) y `fin`.
+}

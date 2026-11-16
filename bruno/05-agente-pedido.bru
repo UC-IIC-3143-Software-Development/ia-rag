@@ -1,0 +1,26 @@
+meta {
+  name: 05 Agente: pedido y política
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{baseUrl}}/agente
+  body: json
+  auth: none
+}
+
+headers {
+  X-Cliente: cli-001
+}
+
+body:json {
+  {
+    "mensaje": "Mi pedido A-10231 llegó el 23 de octubre, ¿todavía puedo devolver la parka?"
+  }
+}
+
+docs {
+  El agente usa dos herramientas: consultar_pedido y buscar_centro_de_ayuda. La respuesta trae los pasos (`pasos`) y la traza.
+  El cliente autenticado va en el header X-Cliente (en producción saldría de la sesión).
+}

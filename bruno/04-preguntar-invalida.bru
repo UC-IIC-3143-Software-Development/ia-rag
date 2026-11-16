@@ -1,0 +1,21 @@
+meta {
+  name: 04 Pregunta inválida (422)
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseUrl}}/preguntar
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "pregunta": "a"
+  }
+}
+
+docs {
+  Pydantic valida la entrada antes de buscar: menos de 3 caracteres (o más de 500) da 422 con el detalle del error.
+}

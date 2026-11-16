@@ -1,0 +1,27 @@
+meta {
+  name: 02 Preguntar con respaldo (SSE)
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/preguntar
+  body: json
+  auth: none
+}
+
+headers {
+  Accept: text/event-stream
+}
+
+body:json {
+  {
+    "pregunta": "¿Cuánto se demora en llegar un pedido a Coyhaique?"
+  }
+}
+
+docs {
+  RAG con respaldo: el mejor fragmento pasa el puntaje mínimo (−5), así que responde Claude citando la fuente [1].
+  La respuesta es un stream SSE: `fuentes`, varios `texto` y `fin` con la traza, los tokens y el costo.
+  Si repiten la misma pregunta, responde el caché exacto (`"cache": true` en `fin`).
+}

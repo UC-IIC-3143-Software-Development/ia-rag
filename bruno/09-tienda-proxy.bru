@@ -1,0 +1,21 @@
+meta {
+  name: 09 Tienda: proxy /api/asistente
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{tiendaUrl}}/api/asistente
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "pregunta": "¿Puedo devolver un saco de dormir usado?"
+  }
+}
+
+docs {
+  La misma pregunta, pero a través de la tienda (Next.js), que reenvía el stream SSE al backend. Es lo que hace el chat de Tienda Andes.
+}

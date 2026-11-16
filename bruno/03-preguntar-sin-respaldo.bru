@@ -1,0 +1,21 @@
+meta {
+  name: 03 Preguntar sin respaldo (abstención)
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/preguntar
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "pregunta": "¿Hacen descuentos para estudiantes?"
+  }
+}
+
+docs {
+  El centro de ayuda no dice nada de descuentos para estudiantes: el mejor fragmento queda bajo el puntaje mínimo, el LLM no se llama y la respuesta es fija («No encontré esa información…»), sin costo.
+}

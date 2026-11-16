@@ -1,0 +1,15 @@
+meta {
+  name: 08 Métricas
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{baseUrl}}/metricas
+  body: none
+  auth: none
+}
+
+docs {
+  Resumen de las trazas: peticiones, tasa de «no encontré», aciertos de caché y p50 y p95 de cada etapa.
+}

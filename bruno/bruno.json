@@ -1,0 +1,6 @@
+{
+  "version": "1",
+  "name": "Asistente Tienda Andes",
+  "type": "collection",
+  "ignore": ["node_modules", ".git"]
+}
